@@ -301,6 +301,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1587549757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1583733088095926023, guid: de3684d6bedae334c891e210498916ec, type: 3}
+  m_PrefabInstance: {fileID: 1583733087313682746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!122 &1587549759
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587549757}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4290756543
+  m_Size: 1
 --- !u!1 &1799815156
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +415,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2124483977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1583733088632728755, guid: de3684d6bedae334c891e210498916ec, type: 3}
+  m_PrefabInstance: {fileID: 1583733087313682746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2124483980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124483977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13095f17d49765b40913e34f2505d8f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 0}
+  velocityMult: 10
+  launchPoint: {fileID: 0}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMode: 0
 --- !u!1001 &1583733087313682746
 PrefabInstance:
   m_ObjectHideFlags: 0
