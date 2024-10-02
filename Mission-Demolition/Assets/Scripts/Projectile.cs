@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Scrip : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
     const int LOOKBACK_COUNT = 10;
 
