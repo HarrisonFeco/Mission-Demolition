@@ -7,6 +7,7 @@ public class Slingshot : MonoBehaviour
     [Header("Inscribed")]
     public GameObject projectilePrefab;
     public float velocityMult = 10f;
+    public GameObject projLinePrefab;
 
     public GameObject launchPoint;
     public Vector3 launchPos;
@@ -66,8 +67,13 @@ public class Slingshot : MonoBehaviour
             projRB.isKinematic = false;
             projRB.collisionDetectionMode = CollisionDetectionMode.Continuous;
             projRB.velocity = -mouseDelta * velocityMult;
+            
+            FollowCam.SWITCH_VIEW(FollowCam.eView.slingshot);
+
             FollowCam.POI = projectile;
+            Instantiate<GameObject>(projLinePrefab, projectile.transform);
             projectile = null;
+            MissionDemolition.SHOT_FIRED();
         }
     }
 }
