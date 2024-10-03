@@ -15,7 +15,7 @@ C:/Users/s_fec/Desktop/Unity Projects/Mission-Demolition/Mission-Demolition
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64634
+59200
 Successfully changed project path to: C:/Users/s_fec/Desktop/Unity Projects/Mission-Demolition/Mission-Demolition
 C:/Users/s_fec/Desktop/Unity Projects/Mission-Demolition/Mission-Demolition
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/s_fec/Desktop/Unity Projects/Mission-Demolition/Mission-Demolition
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21612] Host "[IP] 146.163.41.223 [Port] 0 [Flags] 2 [Guid] 2695899913 [EditorId] 2695899913 [Version] 1048832 [Id] WindowsEditor(7,Jim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7308] Host "[IP] 146.163.42.113 [Port] 0 [Flags] 2 [Guid] 4128786568 [EditorId] 4128786568 [Version] 1048832 [Id] WindowsEditor(7,Jim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21612] Host "[IP] 146.163.41.223 [Port] 0 [Flags] 2 [Guid] 2695899913 [EditorId] 2695899913 [Version] 1048832 [Id] WindowsEditor(7,Jim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7308] Host "[IP] 146.163.42.113 [Port] 0 [Flags] 2 [Guid] 4128786568 [EditorId] 4128786568 [Version] 1048832 [Id] WindowsEditor(7,Jim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 74.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -68,37 +68,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007900 seconds.
+Registered in 0.005539 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.841 seconds
 Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (842ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (575ms)
-			LoadAssemblies (118ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (325ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (349ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (179ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (203ms)
 				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -106,52 +106,106 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006980 seconds.
+Registered in 0.005077 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000022552BB73E0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B06A20 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B06A20 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BC29F0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BC29F0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255140B010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551C33360 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BC29F0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BC29F0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551426420 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BC29F0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B1F020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255119E010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B7DE30 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225513704B0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551447030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B7DE30 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B7DE30 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551447030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BC29F0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225511CDE20 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255145C240 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255145C240 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225511ECE30 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551462C50 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551A68020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B7DE30 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.126 seconds
+- Completed reload, in  1.843 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2127ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (1844ms)
+		BeginReloadAssembly (258ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1765ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
+			SetupTypeCache (357ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (178ms)
-			SetupLoadedEditorAssemblies (938ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (930ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (806ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (804ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (46.8 KB). Loaded Objects now: 3533.
-Memory consumption went from 109.3 MB to 109.2 MB.
-Total: 5.493500 ms (FindLiveObjects: 0.526600 ms CreateObjectMapping: 0.628500 ms MarkObjects: 4.240500 ms  DeleteObjects: 0.096000 ms)
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.7 KB). Loaded Objects now: 3534.
+Memory consumption went from 109.2 MB to 109.1 MB.
+Total: 4.775600 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.261100 ms MarkObjects: 4.075800 ms  DeleteObjects: 0.117700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,37 +222,937 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 136173.616761 seconds.
-  path: Assets/Prefabs/Slab.prefab
-  artifactKey: Guid(c3eb0436657997849bd307580bebb988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 81719.516980 seconds.
+  path: Assets/Prefabs/Slingshot.prefab
+  artifactKey: Guid(de3684d6bedae334c891e210498916ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Slab.prefab using Guid(c3eb0436657997849bd307580bebb988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1539ff512bdfc5049984e371771fa74') in 0.267383 seconds 
-Number of asset objects unloaded after import = 10
+Start importing Assets/Prefabs/Slingshot.prefab using Guid(de3684d6bedae334c891e210498916ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55fc198ed0bc5e96884731c0dd04bee') in 0.165954 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022552986020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551E41620 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225512E4A70 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556D82030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255624F030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553DEB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225535A2010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551E5A010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255624F030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552ABB010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255624F030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022554634010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225546F2040 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254D349020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553E06430 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255195DE90 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225535A2010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225535A2010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255687B030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225512CF010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255687B030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225578F5B20 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225567C3020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225545D2010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551E41620 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552CFB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225568B8440 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1769ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1034ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (874ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3546.
+Memory consumption went from 113.5 MB to 113.4 MB.
+Total: 4.275700 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.252700 ms MarkObjects: 3.589400 ms  DeleteObjects: 0.035800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012984 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022552F20010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598E40B60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225533D06C0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551B0A060 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225575DFF50 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553171010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255146AC60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255279B010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BDF560 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556036020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255624F030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556670020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259897E020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225513526A0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225547BF7B0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553B43010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255318C420 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255318C420 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259897E020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225573D1020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225532C5DD0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225535B8120 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598DC3F60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553DEB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598E40B60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555B30080 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225533031E0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2514ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2124ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (1320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (1121ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3549.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 8.688900 ms (FindLiveObjects: 0.570800 ms CreateObjectMapping: 0.643600 ms MarkObjects: 7.393800 ms  DeleteObjects: 0.077200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022553171010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255293A8A0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556716250 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553FC9030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598BB7020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255146AC60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553FC9030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598E40B60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259895A050 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556670020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022557466FF0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254D349020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225547BF7B0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225989C2020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598BD2430 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598BD2430 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551387010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225512CF010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225532C5DD0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225578F5B20 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022557322B40 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553DEB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225544A9020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255131BE90 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598BD2430 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3221ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2834ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (691ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1697ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (1401ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3552.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 6.298700 ms (FindLiveObjects: 0.358600 ms CreateObjectMapping: 0.186100 ms MarkObjects: 5.689200 ms  DeleteObjects: 0.062100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005699 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022598B65020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555CB7710 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556D82030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022557573010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598B65020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254D103040 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598D95010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556036020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598A83020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555EA4020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259897E020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254D349020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225578E3A90 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552DA1020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255291EE20 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255291EE20 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552CFB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225573D1020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555B30080 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255293A8A0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225516AD020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254CFFD260 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225546D1010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556270B00 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225578DE940 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.329 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2330ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2015ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (1141ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3555.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 11.862800 ms (FindLiveObjects: 0.742400 ms CreateObjectMapping: 0.712200 ms MarkObjects: 10.324000 ms  DeleteObjects: 0.080100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005439 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000225533B66B0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225546D1010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225574E9520 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556D82030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022554724020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225533B66B0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255146AC60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225546D1010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598D95010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225515AA010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598A83020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551637010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259897E020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225516AD020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225533D1AC0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553B43010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552E3B680 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552E3B680 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022557646020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255623D010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022557B25C00 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552F60030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225516AD020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022554696020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022557681010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225547609A0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225578DE940 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.296 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2297ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1988ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (1101ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3558.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 9.452700 ms (FindLiveObjects: 0.386700 ms CreateObjectMapping: 0.210000 ms MarkObjects: 8.777600 ms  DeleteObjects: 0.074900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007059 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022553DEB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225546E8020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556D82030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022554435030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553DEB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254D103040 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598D95010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225515AA010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259895A050 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556032010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259897E020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BDF560 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225546E8020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552DA1020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555CAA030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555CAA030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254CF38010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BDF560 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259918AFD0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552BDF560 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022557087010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598BB7020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225546D1010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555B30080 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555CAA030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3758ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (3408ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (805ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (159ms)
+			SetupLoadedEditorAssemblies (2085ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (1720ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3561.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 9.238000 ms (FindLiveObjects: 0.755800 ms CreateObjectMapping: 0.449200 ms MarkObjects: 7.941100 ms  DeleteObjects: 0.087500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005995 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022598E6E040 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552A6A050 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555CB7660 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556D82030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552AFD020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553DEB020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254D103040 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598F99010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552AFD020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225515AA010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556074020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552B1F020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022554777F70 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254CF612E0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225578DE940 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553B43010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598DCB690 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598DCB690 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598F5E030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255623D010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259918AFD0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552F60030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225547609A0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225545D2010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552A6A050 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022599577390 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022551D42420 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.937 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1543ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (973ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (860ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3565.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 3.325100 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.946200 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PhysMat_Projectile.physicMaterial
-  artifactKey: Guid(32337e4bb91c16b448c3f281755be90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/PhysMat_Projectile.physicMaterial using Guid(32337e4bb91c16b448c3f281755be90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708f33bbd8220ec26f52e7c2132c273f') in 0.020776 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
+  Time since last request: 1975.059528 seconds.
   path: Assets/Prefabs/Castle.prefab
   artifactKey: Guid(d7aa3b4be4778714cb9a8e8d8a88dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Castle.prefab using Guid(d7aa3b4be4778714cb9a8e8d8a88dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6291aff62f3c5c74fda5c7131dc5cc70') in 0.181459 seconds 
+Start importing Assets/Prefabs/Castle.prefab using Guid(d7aa3b4be4778714cb9a8e8d8a88dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4812d4043652f4c959aad40c6d1378') in 0.103233 seconds 
 Number of asset objects unloaded after import = 162
 ========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012417 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022598E40B60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598DCB690 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255630F030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556D82030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022554170030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598E40B60 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598F99010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598F99010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022554170030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000225515AA010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259895A050 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556670020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022556160370 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002254CF5E030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002255630F030 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552DA1020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598F99010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022598F99010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022599577040 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552C39130 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022555BB4020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022599242090 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022553181020 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552FAD010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002259918AFD0 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022552D36010 doesn't match image C:\Users\s_fec\Desktop\Unity Projects\Mission-Demolition\Mission-Demolition\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.857 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1858ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1507ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1003ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (883ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (22.7 KB). Loaded Objects now: 3569.
+Memory consumption went from 113.6 MB to 113.5 MB.
+Total: 3.014400 ms (FindLiveObjects: 0.229700 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.657600 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  Time since last request: 7.833483 seconds.
-  path: Assets/Materials/Mat_Stone 1.mat
-  artifactKey: Guid(2a3a059d3280a484b8eac45451c1d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 310.407847 seconds.
+  path: Assets/Prefabs/Goal.prefab
+  artifactKey: Guid(3fdfd1b45f22dcc48a3fa72c21c39f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/Mat_Stone 1.mat using Guid(2a3a059d3280a484b8eac45451c1d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49bc25fb2e3bd7f5277e31dd28563c3') in 0.062756 seconds 
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Prefabs/Goal.prefab using Guid(3fdfd1b45f22dcc48a3fa72c21c39f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90712749e89e3d8c8bc5832d9ff30d44') in 0.079946 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 10.693165 seconds.
+  path: Assets/Prefabs/Goal.prefab
+  artifactKey: Guid(3fdfd1b45f22dcc48a3fa72c21c39f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Goal.prefab using Guid(3fdfd1b45f22dcc48a3fa72c21c39f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2c56add466e53880e310282cc20ba3') in 0.020155 seconds 
+Number of asset objects unloaded after import = 8
