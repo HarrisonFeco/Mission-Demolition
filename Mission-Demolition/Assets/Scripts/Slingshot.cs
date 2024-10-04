@@ -13,6 +13,8 @@ public class Slingshot : MonoBehaviour
     public Vector3 launchPos;
     public GameObject projectile;
     public bool aimingMode;
+    public AudioSource rubberBandSnap;
+    public AudioSource rubberBandPull;
 
     void Awake()
     {
@@ -40,7 +42,9 @@ public class Slingshot : MonoBehaviour
         projectile = Instantiate(projectilePrefab) as GameObject;
         projectile.transform.position = launchPos;
         projectile.GetComponent<Rigidbody>().isKinematic = true;
+        rubberBandPull.Play();
     }
+    
 
     void Update()
     {
@@ -74,6 +78,7 @@ public class Slingshot : MonoBehaviour
             Instantiate<GameObject>(projLinePrefab, projectile.transform);
             projectile = null;
             MissionDemolition.SHOT_FIRED();
+            rubberBandSnap.Play();
         }
     }
 }
