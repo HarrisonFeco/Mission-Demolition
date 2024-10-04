@@ -70,3 +70,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+#Extras
+
+Mission-Demolition/Library/ArtifactDB
+Mission-Demolition/Library/ArtifactDB
+Mission-Demolition/Library/Bee/1900b0aE-inputdata.json
+/Mission-Demolition/Library
+/Mission-Demolition/Library
+
