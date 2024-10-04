@@ -71,11 +71,26 @@ ScriptsOnlyBuild:
     fullTypeName: GameOverMenu
     methodName: GoToScene
   - assembly: Assembly-CSharp
+    fullTypeName: GameOverMenu
+    methodName: GoToScene
+  - assembly: Assembly-CSharp
     fullTypeName: FollowCam
     methodName: SwitchView
   - assembly: Assembly-CSharp
     fullTypeName: GameOverMenu
     methodName: QuitApp
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOverMenu
+    methodName: GoToScene
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOverMenu
+    methodName: GoToScene
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOverMenu
+    methodName: GoToScene
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOverMenu
+    methodName: GoToScene
   - assembly: Assembly-CSharp
     fullTypeName: GameOverMenu
     methodName: GoToScene
@@ -111,11 +126,56 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 5242}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 5996}
+      Script: {instanceID: 5262}
     - Class: 114
-      Script: {instanceID: 23128}
+      Script: {instanceID: 6000}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Level_Select.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1542}
+    - Class: 114
+      Script: {instanceID: 2780}
+    - Class: 114
+      Script: {instanceID: 3064}
+    - Class: 114
+      Script: {instanceID: 5244}
+    - Class: 114
+      Script: {instanceID: 5262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -164,19 +224,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 3944}
+      Script: {instanceID: 3946}
     - Class: 114
-      Script: {instanceID: 4050}
+      Script: {instanceID: 4052}
     - Class: 114
-      Script: {instanceID: 4300}
+      Script: {instanceID: 4302}
     - Class: 114
-      Script: {instanceID: 4994}
+      Script: {instanceID: 4996}
     - Class: 114
-      Script: {instanceID: 5242}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 5996}
+      Script: {instanceID: 5262}
     - Class: 114
-      Script: {instanceID: 23128}
+      Script: {instanceID: 6000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -239,21 +299,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 4994}
+      Script: {instanceID: 4996}
     - Class: 114
-      Script: {instanceID: 5028}
+      Script: {instanceID: 5030}
     - Class: 114
-      Script: {instanceID: 5066}
+      Script: {instanceID: 5068}
     - Class: 114
-      Script: {instanceID: 5242}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 5684}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 5996}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6632}
+      Script: {instanceID: 6636}
     - Class: 114
-      Script: {instanceID: 6778}
+      Script: {instanceID: 6782}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -959,6 +1019,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: a4cbd1ad138f5fbea4f2866e1b60694f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOverMenu
+  - hash:
+      serializedVersion: 2
       Hash: 8de12aca8b8cb30fa29dfedb5a701e0e
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -1305,15 +1371,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: a4cbd1ad138f5fbea4f2866e1b60694f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameOverMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main_Menu.unity
   - Assets/Scenes/Mission_Demolition.unity
   - Assets/Scenes/End_Menu.unity
-  playerPath: C:/Users/s_fec/Desktop/Unity Projects/Mission-Demolition/Mission-Demolition/Build/Mission-Demolition.exe
+  - Assets/Scenes/Level_Select.unity
+  playerPath: C:/Users/hfeco/OneDrive/Documents/GitHub/Mission-Demolition/Mission-Demolition/Build/Mission-Demolition.exe

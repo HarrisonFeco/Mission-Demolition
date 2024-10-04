@@ -24,6 +24,7 @@ public class MissionDemolition : MonoBehaviour
     [Header("Dynamic")]
     public int level;
     public int levelMax;
+    static private int startingLevel = 0;
     public int shotsTaken;
     public GameObject castle;
     public GameMode mode = GameMode.idle;
@@ -32,11 +33,15 @@ public class MissionDemolition : MonoBehaviour
     void Start()
     {
         S = this;
-
-        level = 0;
+        level = startingLevel;
         shotsTaken = 0;
         levelMax = castles.Length;
+
         StartLevel();
+    }
+    static public void SetLevel(int lvl)
+    {
+        startingLevel = lvl;
     }
     void StartLevel()
     {

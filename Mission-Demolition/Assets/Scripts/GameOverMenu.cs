@@ -7,20 +7,21 @@ using UnityEngine.UI;
 public class GameOverMenu : MonoBehaviour
 {
     public string sceneName;
-    //public RoundCounter roundCounter;
+    public int lvl;
+
 
     void Start()
     {
-        //GameObject roundGO = GameObject.Find("RoundCounter");
-        //roundCounter = roundGO.GetComponent<RoundCounter>();
+    
     }
     public void GoToScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
-        /*if(sceneName == "Apple_Game")
-            {
-                roundCounter.round += 1;
-            }*/
+    }
+
+    public void GoToLevel(int lvl)
+    {
+        MissionDemolition.SetLevel(lvl);
     }
 
     public void QuitApp()
