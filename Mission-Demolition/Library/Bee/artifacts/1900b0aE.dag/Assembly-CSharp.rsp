@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CloudCover.cs"
 "Assets/Scripts/FollowCam.cs"
+"Assets/Scripts/GameOverMenu.cs"
 "Assets/Scripts/Goal.cs"
 "Assets/Scripts/MissionDemolition.cs"
 "Assets/Scripts/Projectile.cs"
