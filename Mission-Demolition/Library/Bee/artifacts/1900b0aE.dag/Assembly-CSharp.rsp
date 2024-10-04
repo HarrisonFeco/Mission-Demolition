@@ -348,6 +348,7 @@
 "Assets/Scripts/GameOverMenu.cs"
 "Assets/Scripts/Goal.cs"
 "Assets/Scripts/MissionDemolition.cs"
+"Assets/Scripts/MissionDemolition1.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/ProjectileLine.cs"
 "Assets/Scripts/RigidBodySleep.cs"
